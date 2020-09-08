@@ -1,2 +1,2 @@
 # OS-Lab
-Code for some assignments from SEM IV - OS Lab
+Code for all the assignments from SEM IV - OS Lab
