@@ -27,8 +27,8 @@
 ## File Allocation Methods
 - [Contiguous](./08_File_Allocation_Strategies/filealloc.c)
 - [Linked List](./08_File_Allocation_Strategies/filealloc.c)
-- [Indexed](./08_File_Allocation_Strategies/filealloc.c)
-<br>
+- [Indexed](./08_File_Allocation_Strategies/filealloc.c)<br>
+
 **Note:** you will need [SLL.h](./08_File_Allocation_Strategies/SLL.h) for Linked List File Allocation Method.
 ## File Organisation Techniques
 - [Single Level Directory](./09_File_Organization_Strategies/fileorg.c)
