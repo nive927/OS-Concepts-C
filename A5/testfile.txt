@@ -1,3 +1,0 @@
-This is the client requested file for the file transfer program.
-It has three lines.
-This is the last line.
