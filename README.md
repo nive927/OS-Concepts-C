@@ -1,15 +1,34 @@
 # Operating System Concepts as Programs
 
-- [CPU Scheduling](./01-TCP-Echo)
-- [Chat Client-Server Application using TCP](./02-TCP-Chat)
-- [Single Server handling Multiple Simultaneous Clients using TCP](./03-TCP-Multiple-Simultaneous-Clients)
-- [Simulating File Transfer using TCP Client-Server](./04-TCP-File-Transfer)
-- [Echo Client-Server using UDP](./05-UDP-Echo)
-- [Domain Name System using UDP Client-Server](./06-UDP-DNS)
-- [Address Resolution Protocol using TCP Client-Server](./07-TCP-ARP)
-- [Hamming Code Generation, Detection and Correction using TCP Client-Server](./08-TCP-Hamming-Code)
-- [Evaluating the performance of TCP and UDP in ns2](./09-NS2-TCP-UDP-Performance-Comparison)
-- [Implementing Distance Vector Routing and Linked State Routing in ns2](./10-NS2-Routing-Protocols-Simulation)
-- [Evaluating the performance Distance Vector Routing and Linked State Routing in ns2](./11-NS2-Routing-Protocols-Evaluation)
-- [Bit Stuffing using TCP Client-Server](./12-TCP-Bit-Stuffing)
-- [Stop and Wait Protocol using TCP Client-Server](./13-UDP-Stop-and-Wait-Protocol)
+## CPU Scheduling Algorithms with Gantt Chart Visualization
+- [First Come First Serve](./01_CPU_Scheduling/CpuScheduling.c)
+- [Shortest Job First](./01_CPU_Scheduling/CpuScheduling.c)
+- [Shortest Remaining Time First](./01_CPU_Scheduling/CpuScheduling.c)
+- [Priority Non-Preemptive](./01_CPU_Scheduling/Cpu2.c)
+- [Priority Preemptive](./01_CPU_Scheduling/Cpu2.c)
+- [Round Robin](./01_CPU_Scheduling/Cpu2.c)
+## Shared Memory Applications
+- [File Transfer - Server and Client](./02_Shared_Memory)
+- [Simple Chat - Server and Client](./02_Shared_Memory)
+## Bankers Algorithm
+- [Bankers Algorithm](./03_Bankers_Algorithm/bankers.c)
+## Memory Allocation with Coalescing of Holes & Visualization
+- [Memory allocation, deallocation, coalescing holes and structure representation](./04_Memory_Allocation_Techniques/memalloc.c)
+## Paging
+- [Paging Simulator with options to get, process and manage requests](./05_Paging/paging.c)
+## Page Replacement Policies
+- [First In First Out](./06_Page_Replacement_Techniques/pgrepupgrade.c)
+- [Optimal](./06_Page_Replacement_Techniques/pgrepupgrade.c)
+- [Least Recently Used](./06_Page_Replacement_Techniques/pgrepupgrade.c)
+- [Least Frequently Used](./06_Page_Replacement_Techniques/pgrepupgrade.c)
+- [Second Chance](./06_Page_Replacement_Techniques/pgrepupgrade.c)
+## Threads Application
+- [Obtaining Statistics from separate threads of execution](./06_Page_Replacement_Techniques/statistics.c)
+## File Allocation Methods
+- [Contiguous](./08_File_Allocation_Strategies/filealloc.c)
+- [Linked List](./08_File_Allocation_Strategies/filealloc.c)
+- [Indexed](./08_File_Allocation_Strategies/filealloc.c)
+**Note: you will need [SLL.h](./08_File_Allocation_Strategies/SLL.h) for Linked List File Allocation Method** 
+## File Organisation Techniques
+- [Single Level Directory](./09_File_Organization_Strategies/fileorg.c)
+- [Tree Structure Directory](./09_File_Organization_Strategies/fileorg.c)
