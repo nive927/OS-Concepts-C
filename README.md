@@ -23,7 +23,7 @@
 - [Least Frequently Used](./06_Page_Replacement_Techniques/pgrepupgrade.c)
 - [Second Chance](./06_Page_Replacement_Techniques/pgrepupgrade.c)
 ## Threads Application
-- [Obtaining Statistics from separate threads of execution](./06_Page_Replacement_Techniques/statistics.c)
+- [Obtaining Statistics from separate threads of execution](./07_Threads/statistics.c)
 ## File Allocation Methods
 - [Contiguous](./08_File_Allocation_Strategies/filealloc.c)
 - [Linked List](./08_File_Allocation_Strategies/filealloc.c)
